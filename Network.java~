@@ -49,7 +49,7 @@ public abstract class Network {
                 }
             }
             catch (Exception e){
-                onReceiveCallBack.accept("Connection Closed\n");
+                onReceiveCallBack.accept("Connection Closed");
             }
         }
     }
